@@ -119,8 +119,10 @@ namespace POOTaller
 
         private static ConsoleKey Menu()
         {
-            Console.WriteLine("\n*** MENU ***");
-            Console.WriteLine("1. Assing customer");
+			Console.WriteLine("\n--------------");
+			Console.WriteLine("*** MENU ***");
+			Console.WriteLine("--------------");
+			Console.WriteLine("1. Assing customer");
             Console.WriteLine("2. Add product");
             Console.WriteLine("3. Pay");
             Console.WriteLine("0. Exit");
